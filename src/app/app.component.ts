@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Forms';
+  User={username:'',
+        password:''};
+  userverify() {
+    alert("form submitted");
+  }      
 }
